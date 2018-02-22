@@ -2,7 +2,7 @@ def main():
     try:
         while 1:
             age = int(input("What is your age? "))
-            if isinstance(age, int or float) and age > 0:
+            if isinstance(age, int) and age > 0:
                 print("проверка")
 
                 if age <= 7:
